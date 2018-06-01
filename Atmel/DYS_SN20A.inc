@@ -417,6 +417,6 @@ Eep_ESC_MCU:			.DB	"#BLHELI#Am8A#   "	; Project and MCU tag (16 Bytes)
 .MACRO Set_RPM_Out
 	sbi  PORTB, 3
 .ENDMACRO
-	cbi  PORTB, 3
 .MACRO Clear_RPM_Out
+	cbi  PORTB, 3
 .ENDMACRO
